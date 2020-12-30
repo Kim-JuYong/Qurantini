@@ -1,0 +1,61 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#000000">
+
+    <ImageView
+        android:id="@+id/dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/circle"
+        card_view:layout_constraintTop_toTopOf="parent"
+        card_view:layout_constraintLeft_toLeftOf="parent"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintRight_toLeftOf="@id/recipe_name"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/recipe_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="진"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintLeft_toRightOf="@id/dot"
+        card_view:layout_constraintRight_toLeftOf="@id/dot_line"
+        card_view:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="10dp"></TextView>
+
+    <ImageView
+        android:id="@+id/dot_line"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/dot_line"
+        card_view:layout_constraintTop_toTopOf="parent"
+        card_view:layout_constraintLeft_toRightOf="@id/recipe_name"
+        card_view:layout_constraintRight_toLeftOf="@id/recipe_volume"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/recipe_volume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="45ml"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        card_view:layout_constraintBottom_toBottomOf="parent"
+        card_view:layout_constraintTop_toTopOf="parent"
+        card_view:layout_constraintLeft_toRightOf="@id/dot_line"
+        card_view:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="30dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<svg id="ShoppingList_Fill" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cc6cff;
+        stroke: #707070;
+      }
+
+      .cls-2, .cls-4 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="구성_요소_20_1" data-name="구성 요소 20 – 1">
+    <g id="타원_7" data-name="타원 7" class="cls-1">
+      <circle class="cls-3" cx="8" cy="8" r="8"/>
+      <circle class="cls-4" cx="8" cy="8" r="7.5"/>
+    </g>
+  </g>
+  <g id="구성_요소_19_1" data-name="구성 요소 19 – 1" transform="translate(4.487 4.487)">
+    <path id="패스_23" data-name="패스 23" class="cls-2" d="M6599,324.513l3.513,3.513,3.513-7.025" transform="translate(-6599 -321)"/>
+  </g>
+</svg>

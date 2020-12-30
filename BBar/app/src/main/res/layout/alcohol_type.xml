@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alcohol_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <ImageView
+        android:id="@+id/picture_alcohol"
+        android:background="@drawable/green"
+        android:layout_width="420dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:src="@drawable/sangria"
+        />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/title_alcohol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="에스프레소 마티니"
+        android:textSize="30dp"
+        android:textColor="#ffffff"
+        android:lineSpacingExtra="12dp"
+        />
+    <TextView
+        android:id="@+id/title_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="#cca0d1"
+        android:lineSpacingExtra="4dp"
+        android:text="블랙 러시안에 에스프레소를 더한 칵테일"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            android:text="난이도"
+            android:layout_marginRight="10dp"/>
+        <ImageView
+            android:id="@+id/gage_difficulty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gage_2"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            android:text="당도"
+            android:layout_marginRight="19dp"/>
+        <ImageView
+            android:id="@+id/gage_sugar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gage_2"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="#ffffff"
+            android:text="도수"
+            android:layout_marginRight="19dp"/>
+        <ImageView
+            android:id="@+id/gage_frequency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gage_2"
+            />
+    </LinearLayout>
+</LinearLayout>

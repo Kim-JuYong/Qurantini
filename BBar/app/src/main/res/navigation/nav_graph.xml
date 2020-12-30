@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navMainFragment">
+    <fragment
+        android:id="@+id/navAlcoholFragment"
+        android:name="com.example.bbar.data.Alchohol_View"
+        android:label="nav_alcohol_fragment">
+        <argument
+            android:name="categori_obj"
+            app:argType="com.example.bbar.Model" />
+        <action
+            android:id="@+id/navAlcoholFragment_to_navCartFragment"
+            app:destination="@id/navCartMainFragment"/>
+        <action
+            android:id="@+id/navAlcoholFragment_to_navFavoriteFragment"
+            app:destination="@id/navFavoriteMainFragment"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navMainFragment"
+        android:name="com.example.bbar.MainFragment"
+        android:label="nav_main_fragment">
+        <action
+            android:id="@+id/action_mainFragment_to_cartMainFragment"
+            app:destination="@+id/navCartMainFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_favoriteMainFragment"
+            app:destination="@+id/navFavoriteMainFragment" />
+        <action
+            android:id="@+id/action_navMainFragment_to_navMainFragment2"
+            app:destination="@id/navMainFragment2" />
+        <action
+            android:id="@+id/action_navMainFragment_to_navAlcoholFragment"
+            app:destination="@id/navAlcoholFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navFavoriteMainFragment"
+        android:label="nav_favorite_main_fragment"
+        android:name="com.example.bbar.FavoriteMainFragment">
+        <argument
+            android:name="argsAlchoholCart2"
+            app:argType="string"/>
+        <action
+            android:id="@+id/action_navFavoriteMainFragment_to_navAlcoholFragment"
+            app:destination="@id/navAlcoholFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navCartMainFragment"
+        android:label="nav_cart_main_fragment"
+        android:name="com.example.bbar.CartMainFragment">
+        <argument
+            android:name="argsAlchoholCart"
+            app:argType="string"/>
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/navMainFragment2"
+        android:label="nav_main_fragment2"
+        android:name="com.example.bbar.MainFragment2">
+        <argument
+            android:name="categori_obj"
+            app:argType="com.example.bbar.Model" />
+        <action
+            android:id="@+id/action_navMainFragment2_to_navAlcoholFragment"
+            app:destination="@id/navAlcoholFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/navSearchFragment"
+        android:label="nav_search_fragment"
+        android:name="com.example.bbar.SearchFragment">
+        <action
+            android:id="@+id/action_navSearchFragment_to_navAlcoholFragment"
+            app:destination="@id/navAlcoholFragment" />
+    </fragment>
+
+
+
+</navigation>

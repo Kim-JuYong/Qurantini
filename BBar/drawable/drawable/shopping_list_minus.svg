@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="9" height="1" viewBox="0 0 9 1">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #8b8b8b;
+      }
+    </style>
+  </defs>
+  <rect id="ShoppingList_Minus" class="cls-1" width="9" height="1" rx="0.5"/>
+</svg>

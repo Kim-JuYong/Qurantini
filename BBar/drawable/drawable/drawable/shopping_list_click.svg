@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="312" height="48" viewBox="0 0 312 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cc6cff;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-size: 16px;
+        font-family: AppleSDGothicNeoB00;
+      }
+    </style>
+  </defs>
+  <g id="ShoppingList_Click" transform="translate(-32 -592)">
+    <rect id="사각형_556" data-name="사각형 556" class="cls-1" width="312" height="48" rx="6" transform="translate(32 592)"/>
+    <text id="쇼핑리스트_담기" data-name="쇼핑리스트 담기" class="cls-2" transform="translate(188 621)"><tspan x="-50.544" y="0">쇼핑리스트 담기</tspan></text>
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="144" height="144" viewBox="0 0 144 144">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        fill: #021149;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #960dff;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="사각형_722" data-name="사각형 722" class="cls-1" width="144" height="144" rx="18" transform="translate(2912 -2549)"/>
+    </clipPath>
+  </defs>
+  <g id="_1_3" data-name="1_3" class="cls-2" transform="translate(-2912 2549)">
+    <rect id="사각형_720" data-name="사각형 720" class="cls-1" width="243" height="243" rx="18" transform="translate(2717 -2595)"/>
+    <g id="_1_2" data-name="1_2" transform="translate(2912 -2549)">
+      <rect id="사각형_721" data-name="사각형 721" class="cls-3" width="144" height="144"/>
+      <line id="선_96" data-name="선 96" class="cls-4" y2="38.155" transform="translate(72 11.489)"/>
+      <line id="선_97" data-name="선 97" class="cls-4" x2="18.94" y2="32.805" transform="translate(40.433 19.814)"/>
+      <line id="선_98" data-name="선 98" class="cls-4" x2="32.805" y2="18.94" transform="translate(17.326 42.923)"/>
+      <line id="선_99" data-name="선 99" class="cls-4" x2="38.155" transform="translate(9 74.489)"/>
+      <line id="선_100" data-name="선 100" class="cls-4" y1="18.939" x2="32.805" transform="translate(17.326 87.116)"/>
+      <line id="선_101" data-name="선 101" class="cls-4" y1="32.805" x2="18.94" transform="translate(40.433 96.359)"/>
+      <line id="선_102" data-name="선 102" class="cls-4" y1="38.154" transform="translate(72 99.335)"/>
+      <line id="선_103" data-name="선 103" class="cls-4" x1="18.94" y1="32.805" transform="translate(84.627 96.359)"/>
+      <line id="선_104" data-name="선 104" class="cls-4" x1="32.805" y1="18.939" transform="translate(93.869 87.116)"/>
+      <line id="선_105" data-name="선 105" class="cls-4" x1="38.154" transform="translate(96.846 74.489)"/>
+      <line id="선_106" data-name="선 106" class="cls-4" x1="32.805" y2="18.94" transform="translate(93.869 42.923)"/>
+      <line id="선_107" data-name="선 107" class="cls-4" x1="18.94" y2="32.805" transform="translate(84.627 19.814)"/>
+    </g>
+  </g>
+</svg>
